@@ -18,7 +18,7 @@ for item in soup.find_all('tr'):
 
     if item.select('.score'):
         print(item.select('.score')[0].get_text())
-        sorted(item.select('.score'))
+        
 
        
     
